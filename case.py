@@ -1,4 +1,4 @@
-'''currency exchange chart'''
+'''Currency exchange chart'''
 
 
 def first_task():
@@ -13,13 +13,15 @@ def first_task():
         c += 1
     plt.plot(b, a)
     plt.show()
+
+
 first_task()
 
 
 
 
 
-'''multiple currency charts'''
+'''Multiple currency charts'''
 
 
 def second_task():
@@ -41,10 +43,13 @@ def second_task():
         d0 += 1
     plt.plot(d, d1, d, d2, d, d3, d, d4)
     plt.show()
+
+
 second_task()
 
 
 '''Finalization of graphs'''
+
 
 def third_task():
     import matplotlib.pyplot as plt
@@ -69,6 +74,8 @@ def third_task():
     plt.title(r'$f_1(x)=\sin(x),\ f_2(x)=\cos(x),\ f_3(x)=-x$')
     plt.grid(True)
     plt.show()
+
+
 third_task()
 
 
@@ -76,6 +83,8 @@ third_task()
 
 
 '''More about graphs'''
+
+
 def fourth_task():
     import matplotlib.pyplot as plt
     d1 = []
@@ -115,10 +124,12 @@ def fourth_task():
     plt.subplot(224).spines['bottom'].set_position('center')
     plt.title(r'$x$')
     plt.show()
+
+
 fourth_task()
 
 
-''''''
+'''Charts in the polar coordinate system'''
 
 
 def fifth_task():
@@ -135,7 +146,11 @@ def fifth_task():
     plt.plot(b, a, lw=2)
     plt.show()
 
+
 fifth_task()
+
+'''Graphs in parametric form'''
+
 
 def sixth_task():
     import matplotlib.pyplot as plt
@@ -150,7 +165,11 @@ def sixth_task():
     plt.plot(b, a, lw=3)
     plt.axis('equal')
     plt.show()
+
+
 sixth_task()
+
+'''The use of labels in the graphs'''
 
 
 def eight_task():
@@ -173,6 +192,8 @@ def eight_task():
     plt.axis([40, 160, 0, 0.04])
     plt.grid(True)
     plt.show()
+
+
 eight_task()
 
 
